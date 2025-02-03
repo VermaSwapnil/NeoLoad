@@ -1,0 +1,182 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/cgi-bin/nav.pl"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@web@tours_@w@t_@r@a@w/%resources%/recorded-artifacts/0becac18-7f2f-4d6a-a35b-a8b3314853b3.zip"
+    slaProfileEnabled="false" thinkTime="53"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="0becac18-7f2f-4d6a-a35b-a8b3314853b3">
+    <embedded-action>5f732448-e298-4bd4-a802-584211ed0aa4</embedded-action>
+    <embedded-action>2f5d8f49-183a-4bc6-87c1-f32e1f144497</embedded-action>
+    <embedded-action>059d018a-1c24-4193-a892-cdad1b9876d0</embedded-action>
+    <embedded-action>9e644c15-0144-4430-a97f-9e5f6ef0016c</embedded-action>
+    <embedded-action>3bb0f1a2-532a-4bb2-899c-659d30ff20aa</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/cgi-bin/nav.pl" path="/cgi-bin/nav.pl"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@web@tours_@w@t_@r@a@w/%resources%/recorded-artifacts/0becac18-7f2f-4d6a-a35b-a8b3314853b3.zip"
+    recordedResponseCode="200" responseSize="1482"
+    serverUid="192.168.137.1" slaProfileEnabled="false"
+    uid="5f732448-e298-4bd4-a802-584211ed0aa4" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ab221d77-689c-4324-8360-e92a50cdb45b.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ab221d77-689c-4324-8360-e92a50cdb45b.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="page"
+        recordRawValue="menu" separator="=" value="menu" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="in"
+        recordRawValue="home" separator="=" value="home" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="MSO=SID&amp;1738568711; MTUserInfo=firstName&amp;Jojo&amp;address2&amp;&amp;username&amp;jojo&amp;hash&amp;47&amp;lastName&amp;Bean%0A&amp;address1&amp;&amp;creditCard&amp;&amp;expDate&amp;%0A"/>
+    <header name="Host" value="192.168.137.1:1080"/>
+    <header name="Priority" value="u=4"/>
+    <header name="Referer" value="http://192.168.137.1:1080/cgi-bin/login.pl"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 03 Feb 2025 07:45:36 GMT&#xd;
+Server: Apache/2.2.21 (Win32)&#xd;
+Expires: Sun, 02 Feb 2025 07:45:36 GMT&#xd;
+Keep-Alive: timeout=5, max=99&#xd;
+Connection: Keep-Alive&#xd;
+Transfer-Encoding: chunked&#xd;
+Content-Type: text/html; charset=ISO-8859-1</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/WebTours/images/flights.gif"
+    path="/WebTours/images/flights.gif" postType="6"
+    recordedArtifactZipFileName="team/vus/@web@tours_@w@t_@r@a@w/%resources%/recorded-artifacts/0becac18-7f2f-4d6a-a35b-a8b3314853b3.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="192.168.137.1" slaProfileEnabled="false"
+    uid="2f5d8f49-183a-4bc6-87c1-f32e1f144497" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_4e6b703c-9817-4824-859f-ed370e0b9335.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="MSO=SID&amp;1738568711; MTUserInfo=firstName&amp;Jojo&amp;address2&amp;&amp;username&amp;jojo&amp;hash&amp;47&amp;lastName&amp;Bean%0A&amp;address1&amp;&amp;creditCard&amp;&amp;expDate&amp;%0A"/>
+    <header name="Host" value="192.168.137.1:1080"/>
+    <header name="Priority" value="u=5, i"/>
+    <header name="Referer" value="http://192.168.137.1:1080/cgi-bin/nav.pl?page=menu&amp;in=home"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 03 Feb 2025 07:45:36 GMT&#xd;
+Server: Apache/2.2.21 (Win32)&#xd;
+Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT&#xd;
+ETag: "1300000004afb7-2d6-4b654c052c2c0"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 726&#xd;
+Keep-Alive: timeout=5, max=98&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/WebTours/images/itinerary.gif"
+    path="/WebTours/images/itinerary.gif" postType="6"
+    recordedArtifactZipFileName="team/vus/@web@tours_@w@t_@r@a@w/%resources%/recorded-artifacts/0becac18-7f2f-4d6a-a35b-a8b3314853b3.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="192.168.137.1" slaProfileEnabled="false"
+    uid="059d018a-1c24-4193-a892-cdad1b9876d0" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_18eb34df-ef1d-40b1-9e49-752fc0cfa412.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="MSO=SID&amp;1738568711; MTUserInfo=firstName&amp;Jojo&amp;address2&amp;&amp;username&amp;jojo&amp;hash&amp;47&amp;lastName&amp;Bean%0A&amp;address1&amp;&amp;creditCard&amp;&amp;expDate&amp;%0A"/>
+    <header name="Host" value="192.168.137.1:1080"/>
+    <header name="Priority" value="u=5, i"/>
+    <header name="Referer" value="http://192.168.137.1:1080/cgi-bin/nav.pl?page=menu&amp;in=home"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 03 Feb 2025 07:45:36 GMT&#xd;
+Server: Apache/2.2.21 (Win32)&#xd;
+Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT&#xd;
+ETag: "1300000004afcd-2dd-4b654c052c2c0"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 733&#xd;
+Keep-Alive: timeout=5, max=100&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/WebTours/images/in_home.gif"
+    path="/WebTours/images/in_home.gif" postType="6"
+    recordedArtifactZipFileName="team/vus/@web@tours_@w@t_@r@a@w/%resources%/recorded-artifacts/0becac18-7f2f-4d6a-a35b-a8b3314853b3.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="192.168.137.1" slaProfileEnabled="false"
+    uid="9e644c15-0144-4430-a97f-9e5f6ef0016c" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_dfd472cd-4b0e-4ad7-b13b-b172693a8c07.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="MSO=SID&amp;1738568711; MTUserInfo=firstName&amp;Jojo&amp;address2&amp;&amp;username&amp;jojo&amp;hash&amp;47&amp;lastName&amp;Bean%0A&amp;address1&amp;&amp;creditCard&amp;&amp;expDate&amp;%0A"/>
+    <header name="Host" value="192.168.137.1:1080"/>
+    <header name="Priority" value="u=5, i"/>
+    <header name="Referer" value="http://192.168.137.1:1080/cgi-bin/nav.pl?page=menu&amp;in=home"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 03 Feb 2025 07:45:36 GMT&#xd;
+Server: Apache/2.2.21 (Win32)&#xd;
+Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT&#xd;
+ETag: "1300000004afc2-2b0-4b654c052c2c0"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 688&#xd;
+Keep-Alive: timeout=5, max=100&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/WebTours/images/signoff.gif"
+    path="/WebTours/images/signoff.gif" postType="6"
+    recordedArtifactZipFileName="team/vus/@web@tours_@w@t_@r@a@w/%resources%/recorded-artifacts/0becac18-7f2f-4d6a-a35b-a8b3314853b3.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="192.168.137.1" slaProfileEnabled="false"
+    uid="3bb0f1a2-532a-4bb2-899c-659d30ff20aa" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_7076f2b0-8a72-4093-89e0-ee6ff53cf3bb.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="MSO=SID&amp;1738568711; MTUserInfo=firstName&amp;Jojo&amp;address2&amp;&amp;username&amp;jojo&amp;hash&amp;47&amp;lastName&amp;Bean%0A&amp;address1&amp;&amp;creditCard&amp;&amp;expDate&amp;%0A"/>
+    <header name="Host" value="192.168.137.1:1080"/>
+    <header name="Priority" value="u=5, i"/>
+    <header name="Referer" value="http://192.168.137.1:1080/cgi-bin/nav.pl?page=menu&amp;in=home"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 03 Feb 2025 07:45:36 GMT&#xd;
+Server: Apache/2.2.21 (Win32)&#xd;
+Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT&#xd;
+ETag: "1900000004cdf0-2ef-4b654c052c2c0"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 751&#xd;
+Keep-Alive: timeout=5, max=100&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

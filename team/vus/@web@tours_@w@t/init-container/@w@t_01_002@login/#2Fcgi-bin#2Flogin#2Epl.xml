@@ -1,0 +1,61 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/cgi-bin/login.pl"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@web@tours_@w@t/%resources%/recorded-artifacts/02bf7385-eb71-42d2-a0ef-1589074420e8.zip"
+    slaProfileEnabled="false" thinkTime="19969"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="02bf7385-eb71-42d2-a0ef-1589074420e8">
+    <embedded-action>690055df-d4df-4eae-b04b-4a7a9152ce8c</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/cgi-bin/login.pl" path="/cgi-bin/login.pl"
+    postCharset="iso-8859-1" postType="1"
+    recordedArtifactZipFileName="team/vus/@web@tours_@w@t/%resources%/recorded-artifacts/02bf7385-eb71-42d2-a0ef-1589074420e8.zip"
+    recordedResponseCode="200" responseSize="481"
+    serverUid="192.168.137.1" slaProfileEnabled="false"
+    uid="690055df-d4df-4eae-b04b-4a7a9152ce8c" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[dXNlclNlc3Npb249MTQwODMxLjgxMTM0MDYyNEhjdHRBRHpwY1FmaURERER0RHR6dHBjVkhISGYmdXNlcm5hbWU9am9qbyZwYXNzd29yZD0ke0F1dG9QYXNzd29yZF8xfSZsb2dpbi54PTY0JmxvZ2luLnk9MTUmSlNGb3JtU3VibWl0PW9mZg==]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_1b963ef7-3040-4c7e-bfae-002c27525e2e.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1b963ef7-3040-4c7e-bfae-002c27525e2e.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="userSession"
+        recordRawValue="140831.811340624HcttADzpcQfiDDDDtDtztpcVHHHf"
+        separator="=" value="${C_userSession}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="username"
+        recordRawValue="jojo" separator="=" value="jojo" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="password"
+        recordRawValue="${AutoPassword_1}" separator="="
+        value="${AutoPassword_1}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="login.x"
+        recordRawValue="64" separator="=" value="64" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="login.y"
+        recordRawValue="15" separator="=" value="15" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="JSFormSubmit"
+        recordRawValue="off" separator="=" value="off" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <header name="Cookie" value="MSO=SID&amp;1738568711"/>
+    <header name="Host" value="192.168.137.1:1080"/>
+    <header name="Origin" value="http://192.168.137.1:1080"/>
+    <header name="Priority" value="u=4"/>
+    <header name="Referer" value="http://192.168.137.1:1080/cgi-bin/nav.pl?in=home"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0"/>
+    <header name="NeoLoad" value="Login"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 03 Feb 2025 07:45:36 GMT&#xd;
+Server: Apache/2.2.21 (Win32)&#xd;
+Expires: 5s&#xd;
+Set-Cookie: MTUserInfo=firstName&amp;Jojo&amp;address2&amp;&amp;username&amp;jojo&amp;hash&amp;47&amp;lastName&amp;Bean%0A&amp;address1&amp;&amp;creditCard&amp;&amp;expDate&amp;%0A; path=/&#xd;
+Keep-Alive: timeout=5, max=100&#xd;
+Connection: Keep-Alive&#xd;
+Transfer-Encoding: chunked&#xd;
+Content-Type: text/html; charset=ISO-8859-1</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

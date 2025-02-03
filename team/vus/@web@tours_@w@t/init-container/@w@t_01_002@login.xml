@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="WT_01_002Login" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="78001b25-8780-4b9e-a416-d6cf69f7272d" weightsEnabled="false">
+    <weighted-embedded-action uid="02bf7385-eb71-42d2-a0ef-1589074420e8"/>
+    <weighted-embedded-action uid="3ca029e7-6d18-4498-a9ad-38f2f57491db"/>
+    <weighted-embedded-action uid="0b17c8f8-ec05-406a-8c82-5381fb76a006"/>
+</basic-logical-action-container>

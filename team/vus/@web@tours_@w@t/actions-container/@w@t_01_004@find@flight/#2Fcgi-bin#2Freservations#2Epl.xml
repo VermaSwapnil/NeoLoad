@@ -1,0 +1,135 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/cgi-bin/reservations.pl" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@web@tours_@w@t/%resources%/recorded-artifacts/6df8d73e-626b-4263-a868-1f58e90bd8cb.zip"
+    slaProfileEnabled="false" thinkTime="4648"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="6df8d73e-626b-4263-a868-1f58e90bd8cb">
+    <embedded-action>dbe62a9d-4253-4c30-8c8a-e17a5a2badd5</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/cgi-bin/reservations.pl"
+    path="/cgi-bin/reservations.pl" postCharset="iso-8859-1"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@web@tours_@w@t/%resources%/recorded-artifacts/6df8d73e-626b-4263-a868-1f58e90bd8cb.zip"
+    recordedResponseCode="200"
+    refererUid="515c95c3-56d4-4ee0-bc81-b08535bf5285"
+    responseSize="2442" serverUid="192.168.137.1"
+    slaProfileEnabled="false" uid="dbe62a9d-4253-4c30-8c8a-e17a5a2badd5" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[YWR2YW5jZURpc2NvdW50PTAmZGVwYXJ0PURlbnZlciZkZXBhcnREYXRlPTAyJTJGMDQlMkYyMDI1JmFycml2ZT1GcmFua2Z1cnQmcmV0dXJuRGF0ZT0wMyUyRjA1JTJGMjAyNSZudW1QYXNzZW5nZXJzPTEmc2VhdFByZWY9Tm9uZSZzZWF0VHlwZT1Db2FjaCZmaW5kRmxpZ2h0cy54PTY2JmZpbmRGbGlnaHRzLnk9MTQmLmNnaWZpZWxkcz1yb3VuZHRyaXAmLmNnaWZpZWxkcz1zZWF0VHlwZSYuY2dpZmllbGRzPXNlYXRQcmVm]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_dbe62a9d-4253-4c30-8c8a-e17a5a2badd5.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_dbe62a9d-4253-4c30-8c8a-e17a5a2badd5.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_outboundFlight"
+        refererUid="dbe62a9d-4253-4c30-8c8a-e17a5a2badd5"
+        regExp="name=&quot;outboundFlight&quot; value=&quot;(.*?)&quot;"
+        regExpAdv="" setDefaultValue="true"
+        startsWithSimple="name=&quot;outboundFlight&quot; value=&quot;"
+        template="$1$" templateAdv="$1$"
+        uid="6078d20a-99d8-4c1b-bc59-cfa6a564b137" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <parameter encodeName="true" encodeValue="true"
+        name="advanceDiscount" recordRawValue="0" separator="="
+        value="0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="depart"
+        recordRawValue="Denver" separator="=" value="Denver" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="departDate"
+        recordRawValue="02%2F04%2F2025" separator="=" value="02/04/2025" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="arrive"
+        recordRawValue="Frankfurt" separator="=" value="Frankfurt" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="returnDate"
+        recordRawValue="03%2F05%2F2025" separator="=" value="03/05/2025" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="numPassengers"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="seatPref"
+        recordRawValue="None" separator="=" value="None" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="seatType"
+        recordRawValue="Coach" separator="=" value="Coach" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="findFlights.x"
+        recordRawValue="66" separator="=" value="66" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="findFlights.y"
+        recordRawValue="14" separator="=" value="14" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".cgifields"
+        recordRawValue="roundtrip" separator="=" value="roundtrip" valueMode="USE_VALUE">
+        <record-variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1" name=""
+            refererUid="515c95c3-56d4-4ee0-bc81-b08535bf5285"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']\.cgifields[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']\.cgifields[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="53eb4bc7-7544-4a66-b9a7-054db5a435d3" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </record-variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true" name=".cgifields"
+        recordRawValue="seatType" separator="=" value="seatType" valueMode="USE_VALUE">
+        <record-variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="2"
+            matchNumberAdv="2" matchNumberSimple="1" name=""
+            refererUid="515c95c3-56d4-4ee0-bc81-b08535bf5285"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']\.cgifields[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']\.cgifields[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="2bbb1c97-1a4c-4b9e-9618-c085330463b5" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </record-variable-extractor>
+    </parameter>
+    <parameter encodeName="true" encodeValue="true" name=".cgifields"
+        recordRawValue="seatPref" separator="=" value="seatPref" valueMode="USE_VALUE">
+        <record-variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="3"
+            matchNumberAdv="3" matchNumberSimple="1" name=""
+            refererUid="515c95c3-56d4-4ee0-bc81-b08535bf5285"
+            regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']\.cgifields[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']\.cgifields[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+            setDefaultValue="true" startsWithSimple="" template="$1$"
+            templateAdv="$1$" uid="66ea08fb-2046-49c7-9996-d1f2b9d5e7cd" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </record-variable-extractor>
+    </parameter>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <header name="Cookie" value="MSO=SID&amp;1738568711; MTUserInfo=firstName&amp;Jojo&amp;address2&amp;&amp;username&amp;jojo&amp;hash&amp;47&amp;lastName&amp;Bean%0A&amp;address1&amp;&amp;creditCard&amp;&amp;expDate&amp;%0A"/>
+    <header name="Host" value="192.168.137.1:1080"/>
+    <header name="Origin" value="http://192.168.137.1:1080"/>
+    <header name="Priority" value="u=4"/>
+    <header name="Referer" value="http://192.168.137.1:1080/cgi-bin/reservations.pl?page=welcome"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0"/>
+    <header name="NeoLoad" value="FindFlight"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 03 Feb 2025 07:46:19 GMT&#xd;
+Server: Apache/2.2.21 (Win32)&#xd;
+Expires: Sun, 02 Feb 2025 07:46:19 GMT&#xd;
+Keep-Alive: timeout=5, max=100&#xd;
+Connection: Keep-Alive&#xd;
+Transfer-Encoding: chunked&#xd;
+Content-Type: text/html; charset=ISO-8859-1</responseHeaders>
+    <record-html-infos extractorName="DestForm" extractorOccurence="1"
+        extractorRegExp="false" htmlType="2"/>
+</http-action>

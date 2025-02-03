@@ -1,0 +1,122 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/cgi-bin/reservations.pl" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@web@tours_@w@t/%resources%/recorded-artifacts/034627bc-2ec9-4bc9-8843-b187c8ffec68.zip"
+    slaProfileEnabled="false" thinkTime="42098"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="034627bc-2ec9-4bc9-8843-b187c8ffec68">
+    <embedded-action>6fcb890d-53c3-4906-af3b-2760756dedbe</embedded-action>
+    <embedded-action>bf25d360-82bd-40af-8aef-889021050b60</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/cgi-bin/reservations.pl"
+    path="/cgi-bin/reservations.pl" postCharset="iso-8859-1"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@web@tours_@w@t/%resources%/recorded-artifacts/034627bc-2ec9-4bc9-8843-b187c8ffec68.zip"
+    recordedResponseCode="200"
+    refererUid="29f5ce10-e3df-442f-bcfd-5c1b1413e0ea"
+    responseSize="2479" serverUid="192.168.137.1"
+    slaProfileEnabled="false" uid="6fcb890d-53c3-4906-af3b-2760756dedbe" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[Zmlyc3ROYW1lPUpvam8mbGFzdE5hbWU9QmVhbiZhZGRyZXNzMT1hYmMmYWRkcmVzczI9NDU2NzczJnBhc3MxPUpvam8rQmVhbiZjcmVkaXRDYXJkPTEyMzQ1Njc4OTEyMyZleHBEYXRlPTEyJTJGMjYmb2xkQ0NPcHRpb249Jm51bVBhc3NlbmdlcnM9MSZzZWF0VHlwZT1Db2FjaCZzZWF0UHJlZj1Ob25lJm91dGJvdW5kRmxpZ2h0PTAxMCUzQjM4NiUzQjAyJTJGMDQlMkYyMDI1JmFkdmFuY2VEaXNjb3VudD0wJnJldHVybkZsaWdodD0mSlNGb3JtU3VibWl0PW9mZiZidXlGbGlnaHRzLng9NDImYnV5RmxpZ2h0cy55PTEwJi5jZ2lmaWVsZHM9c2F2ZUND]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_6fcb890d-53c3-4906-af3b-2760756dedbe.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6fcb890d-53c3-4906-af3b-2760756dedbe.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="firstName"
+        recordRawValue="Jojo" separator="=" value="Jojo" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="lastName"
+        recordRawValue="Bean" separator="=" value="Bean" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="address1"
+        recordRawValue="abc" separator="=" value="abc" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="address2"
+        recordRawValue="456773" separator="=" value="456773" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pass1"
+        recordRawValue="Jojo+Bean" separator="=" value="Jojo Bean" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="creditCard"
+        recordRawValue="123456789123" separator="=" value="123456789123" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="expDate"
+        recordRawValue="12%2F26" separator="=" value="12/26" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="oldCCOption"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="numPassengers"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="seatType"
+        recordRawValue="Coach" separator="=" value="Coach" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="seatPref"
+        recordRawValue="None" separator="=" value="None" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="outboundFlight"
+        recordRawValue="010%3B386%3B02%2F04%2F2025" separator="="
+        value="${C_outboundFlight}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="advanceDiscount" recordRawValue="0" separator="="
+        value="0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="returnFlight"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="JSFormSubmit"
+        recordRawValue="off" separator="=" value="off" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="buyFlights.x"
+        recordRawValue="42" separator="=" value="42" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="buyFlights.y"
+        recordRawValue="10" separator="=" value="10" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".cgifields"
+        recordRawValue="saveCC" separator="=" value="saveCC" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <header name="Cookie" value="MSO=SID&amp;1738568711; MTUserInfo=firstName&amp;Jojo&amp;address2&amp;&amp;username&amp;jojo&amp;hash&amp;47&amp;lastName&amp;Bean%0A&amp;address1&amp;&amp;creditCard&amp;&amp;expDate&amp;%0A"/>
+    <header name="Host" value="192.168.137.1:1080"/>
+    <header name="Origin" value="http://192.168.137.1:1080"/>
+    <header name="Priority" value="u=4"/>
+    <header name="Referer" value="http://192.168.137.1:1080/cgi-bin/reservations.pl"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0"/>
+    <header name="NeoLoad" value="EnterPaymentDetails"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 03 Feb 2025 07:47:19 GMT&#xd;
+Server: Apache/2.2.21 (Win32)&#xd;
+Expires: Sun, 02 Feb 2025 07:47:19 GMT&#xd;
+Set-Cookie: MTUserInfo=firstName&amp;Jojo&amp;username&amp;jojo&amp;address2&amp;&amp;hash&amp;47&amp;address1&amp;&amp;lastName&amp;Bean%0A; path=/&#xd;
+Keep-Alive: timeout=5, max=100&#xd;
+Connection: Keep-Alive&#xd;
+Transfer-Encoding: chunked&#xd;
+Content-Type: text/html; charset=ISO-8859-1</responseHeaders>
+    <record-html-infos extractorOccurence="1" extractorRegExp="false" htmlType="2"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif" enabled="false"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/WebTours/images/bookanother.gif"
+    path="/WebTours/images/bookanother.gif" postType="6"
+    recordedArtifactZipFileName="team/vus/@web@tours_@w@t/%resources%/recorded-artifacts/034627bc-2ec9-4bc9-8843-b187c8ffec68.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="192.168.137.1" slaProfileEnabled="false"
+    uid="bf25d360-82bd-40af-8aef-889021050b60" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_bf25d360-82bd-40af-8aef-889021050b60.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="MSO=SID&amp;1738568711; MTUserInfo=firstName&amp;Jojo&amp;username&amp;jojo&amp;address2&amp;&amp;hash&amp;47&amp;address1&amp;&amp;lastName&amp;Bean%0A"/>
+    <header name="Host" value="192.168.137.1:1080"/>
+    <header name="Priority" value="u=5, i"/>
+    <header name="Referer" value="http://192.168.137.1:1080/cgi-bin/reservations.pl"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 03 Feb 2025 07:47:19 GMT&#xd;
+Server: Apache/2.2.21 (Win32)&#xd;
+Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT&#xd;
+ETag: "1500000004afab-326-4b654c052c2c0"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 806&#xd;
+Keep-Alive: timeout=5, max=99&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: image/gif</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

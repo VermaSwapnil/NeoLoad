@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="WT_01_004FindFlight" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="9e887e35-8c9f-45d5-a35a-144fb2af05dd" weightsEnabled="false">
+    <weighted-embedded-action uid="6df8d73e-626b-4263-a868-1f58e90bd8cb"/>
+</basic-logical-action-container>

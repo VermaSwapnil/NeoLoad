@@ -1,0 +1,38 @@
+<http-page enabled="false" executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/favicon.ico"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@web@tours_@w@t/%resources%/recorded-artifacts/46c87495-afc9-4d51-b893-2bfdf6a22515.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="46c87495-afc9-4d51-b893-2bfdf6a22515">
+    <embedded-action>f8f5006e-d730-474b-ba7a-18beb79097fc</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=iso-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/favicon.ico" path="/favicon.ico" postType="6"
+    recordedArtifactZipFileName="team/vus/@web@tours_@w@t/%resources%/recorded-artifacts/46c87495-afc9-4d51-b893-2bfdf6a22515.zip"
+    recordedResponseCode="404" responseSize="209"
+    serverUid="192.168.137.1" slaProfileEnabled="false"
+    uid="f8f5006e-d730-474b-ba7a-18beb79097fc" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_fdd250d3-118a-45fd-8df4-5acb5f169e4d.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_fdd250d3-118a-45fd-8df4-5acb5f169e4d.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="192.168.137.1:1080"/>
+    <header name="Priority" value="u=6"/>
+    <header name="Referer" value="http://192.168.137.1:1080/webtours/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0"/>
+    <responseHeaders>HTTP/1.1 404 Not Found&#xd;
+Date: Mon, 03 Feb 2025 07:45:10 GMT&#xd;
+Server: Apache/2.2.21 (Win32)&#xd;
+Content-Length: 209&#xd;
+Keep-Alive: timeout=5, max=98&#xd;
+Connection: Keep-Alive&#xd;
+Content-Type: text/html; charset=iso-8859-1</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
