@@ -1,0 +1,9 @@
+<variable-file delimiters="," filename="variables/WT_PaymentDetails.dat" name="WT_PaymentDetails" offset="1" order="3" policy="5" range="1" uid="d685034d-b0bf-4d49-90af-67763a61f93c" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
+<column name="P_CreditCard" number="5"/>
+<column name="P_ExpDate" number="6"/>
+<column name="P_PassengerName" number="4"/>
+<column name="P_UCity" number="3"/>
+<column name="P_UFirstName" number="0"/>
+<column name="P_ULastName" number="1"/>
+<column name="P_UStreet Address" number="2"/>
+</variable-file>

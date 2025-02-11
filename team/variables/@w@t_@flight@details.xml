@@ -1,0 +1,5 @@
+<variable-file delimiters="," filename="variables/WT_FlightDetails.dat" name="WT_FlightDetails" offset="1" order="3" policy="5" range="1" uid="a456c188-df55-4958-afac-a70fa936b2dd" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
+<column name="P_DepartureDate" number="0"/>
+<column name="P_NumberOfPassengers" number="2"/>
+<column name="P_ReturnDate" number="1"/>
+</variable-file>

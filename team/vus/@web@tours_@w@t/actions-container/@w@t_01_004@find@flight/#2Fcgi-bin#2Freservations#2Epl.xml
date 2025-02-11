@@ -43,13 +43,16 @@
     <parameter encodeName="true" encodeValue="true" name="depart"
         recordRawValue="Denver" separator="=" value="Denver" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="departDate"
-        recordRawValue="02%2F04%2F2025" separator="=" value="02/04/2025" valueMode="USE_VALUE"/>
+        recordRawValue="02%2F04%2F2025" separator="="
+        value="${V_DepartureDate}" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="arrive"
         recordRawValue="Frankfurt" separator="=" value="Frankfurt" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="returnDate"
-        recordRawValue="03%2F05%2F2025" separator="=" value="03/05/2025" valueMode="USE_VALUE"/>
+        recordRawValue="03%2F05%2F2025" separator="="
+        value="${V_ArrivalDate}" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="numPassengers"
-        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+        recordRawValue="1" separator="="
+        value="${WT_FlightDetails.P_NumberOfPassengers}" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="seatPref"
         recordRawValue="None" separator="=" value="None" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="seatType"

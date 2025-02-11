@@ -1,0 +1,1 @@
+<variable-date inc-type="3" inc-value="1" name="V_ArrivalDate" order="1" pattern="dd/MM/yyyy" policy="1" range="1" start-date="03/02/2025" uid="666a48a6-7ea2-4c02-9a44-e2c1e88fd9b9" whenOutOfValues="CYCLE_VALUES"/>
